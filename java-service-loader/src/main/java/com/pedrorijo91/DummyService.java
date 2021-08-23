@@ -1,5 +1,8 @@
 package com.pedrorijo91;
 
+import com.google.auto.service.AutoService;
+
+@AutoService(MyService.class)
 public class DummyService implements MyService {
 
     @Override
